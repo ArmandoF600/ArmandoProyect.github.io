@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none ;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+img {
+	max-width: 100%;
+	padding: 20px;
+    border-radius: 50px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #d1d6fe;
+
+}
+
+.logo {
+	color: #031df9;
+	font-size: 25px;
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+
+.header-content {
+
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+
+}
+
+.header-txt {
+	flex-basis: 50%;
+	padding-right: 50px;
+
+}
+
+.header-txt h1 {
+
+	font-size: 40px;
+	line-height: 1,2;
+	text-transform: uppercase;
+	color: #031df9;
+	margin-bottom: 50px;
+
+}
+
+p {
+	font-size: 23px;
+	color: #515151;
+	margin-bottom: 25px;
+
+}
+
+.btn-1 {
+	display: inline-block;
+	padding: 10px 25px;
+	background-color: #eed1fe;
+	text-transform: uppercase;
+	border-radius: 25px;
+	font-size: 16px;
+
+}
+
+.btn-1:hover {
+	background-color: #f38004;
+
+}
+
+.header-img {
+	flex-basis: 38%;
+}
+
+.services {
+	padding: 80px 0;
+	text-align: center;
+
+}
+
+h2 {
+	color: #1b1b1d;
+	font-size: 50px;
+
+}
+
+.services-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+}
+
+.services-1 {
+	flex-basis: calc(100%);
+}
+
+.services-1 img {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+.services-1 h3 {
+	color: #1b1b1d;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.products {
+	padding: 0 0 80 0 px;
+	text-align: center;
+
+}
+
+.products-content {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.products-1 {
+	background-color: #eed1fe;
+	padding: 10px;
+    border-radius: 50px;
+}
+
+.products-1 h4 {
+	color: #1b1b1d;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.products-1 p {
+	color: #031df9;
+	margin-bottom: 10px;
+
+}
+
+.numero {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.numero-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.numero-1 {
+	flex-basis: calc(70% - 10px);
+	padding: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+
+}
+
+
+
+ 
